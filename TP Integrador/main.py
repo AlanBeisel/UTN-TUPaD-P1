@@ -6,7 +6,17 @@ productos = [
     {"nombre": "Monitor", "precio": 48000, "stock": 8},
     {"nombre": "Notebook", "precio": 250000, "stock": 5},
     {"nombre": "Cable HDMI", "precio": 2000, "stock": 50},
-    {"nombre": "Webcam Full HD", "precio": 8900, "stock": 15}
+    {"nombre": "Webcam Full HD", "precio": 8900, "stock": 15},
+    {"nombre": "Disco SSD 1TB", "precio": 32000, "stock": 12},
+    {"nombre": "Memoria RAM 16GB", "precio": 28000, "stock": 20},
+    {"nombre": "Placa de Video RTX 3060", "precio": 360000, "stock": 4},
+    {"nombre": "Auriculares Bluetooth", "precio": 9500, "stock": 18},
+    {"nombre": "Router Wi-Fi 6", "precio": 27000, "stock": 7},
+    {"nombre": "Tablet 10 pulgadas", "precio": 85000, "stock": 6},
+    {"nombre": "Fuente 750W 80 Plus", "precio": 23000, "stock": 10},
+    {"nombre": "Cámara IP", "precio": 11200, "stock": 9},
+    {"nombre": "Soporte para Monitor", "precio": 5600, "stock": 14},
+    {"nombre": "Microfono USB", "precio": 12400, "stock": 11}
 ]
 
 # Mostrar productos
@@ -40,7 +50,7 @@ def busqueda_binaria(productos_ordenados, nombre_buscado):
             fin = medio - 1
     return None
 
-# Ordenamiento por nombre (burbuja)
+# Ordenamiento por nombre (burbuja) de a pares
 def ordenar_por_nombre(productos):
     lista = productos.copy()
     n = len(lista)
