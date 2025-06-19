@@ -26,4 +26,5 @@ Aplicación que simula un gestor de productos para e-commerce, implementando:
 - Alan Beisel
 - Santiago Bongiorno
 
-https://www.youtube.com/watch?v=OPn-_sq0s_E&ab_channel=AlanEliasBeisel
+## Video tutorial
+https://www.youtube.com/watch?v=xplb80F7hBs
